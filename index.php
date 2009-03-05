@@ -2,11 +2,9 @@
  "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-    <!-- TODO: Fix wrong active tab color on hover -->
     <!-- TODO: Switch Theme box style -->
     <!-- TODO: Notice box (block without header essentially) -->
     <!-- TODO: Pager control -->
-    <!-- TODO: IE 6 & 7 alternate stylesheets -->
     <title>YUI App Theme</title>
     <link rel="stylesheet" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" type="text/css">
     <link rel="stylesheet" href="css/yuiapp.css" type="text/css">
@@ -36,6 +34,7 @@
         <div id="bd">
             <div id="yui-main">
                 <div class="yui-b"><div class="yui-g">
+					<p>YUI App Theme is a generic, skinnable layout for your web application. Because it's built on top of the <a href="http://developer.yahoo.com/yui/grids/">YUI Grids</a> foundation, it's cross-browser and easy to extend.</p>
 
                     <!-- Basic block -->
                     <div class="block">
@@ -45,7 +44,7 @@
                         <div class="bd">
                             <h2>Some H2 Text</h2>
                             <h3>Some H3 Text</h3>
-                            <p>So this is a basic block module. It allows you to define a header using either an &lt;h2&gt; or a &lt;h3&gt; tag. It can live either in the main body column (here) or in the side bar to the right. It will automatically expand/shrink/do-the-right-thing where ever you put it &mdash; without requiring any markup changes.</p>
+                            <p>So this is a basic block module. It allows you to define a header using either an &lt;h2&gt; or &lt;h3&gt; tag. It can live either in the main body column (here) or in the side bar to the right. It will automatically expand/shrink/do-the-right-thing where ever you put it &mdash; without requiring any markup changes.</p>
                             <p>Lorem ipsum dolor sit amet, <strong>some bold text</strong> <em>followed by some italic text</em> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <span class="highlight">Highlighted text goes here</span>, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             <p class="small">small text</p>
                             <p class="gray">gray text</p>
@@ -55,7 +54,7 @@
                     </div>
 
                     <!-- Basic block with tabs -->
-                    <div class="block tabs">
+                    <div class="block tabs spaces">
                         <div class="hd">
                             <h2>Fake Header For SEO Purposes</h2>
                             <ul>
@@ -254,7 +253,7 @@
                         <h2>About yui-app-theme</h2>
                         <p>This project is based on the great idea and design work done by the <a href="http://github.com/pilu/web-app-theme/tree/master">web-app-theme</a> project on GitHub.</p>
                         <p>We loved the concept and simplicity of their web app template but needed it to be built with <a href="http://developer.yahoo.com/yui/">YUI</a> instead. So we decided to re-implement it ourselves.</p>
-                        <p>The result is a clean, semantically structured layout built using <a href="">YUI Grids</a>. We hope you find it useful.</p>
+                        <p>The result is a clean, semantically structured layout built using <a href="http://developer.yahoo.com/yui/grids/">YUI Grids</a>. We hope you find it useful.</p>
                     </div>
                 </div>
 
