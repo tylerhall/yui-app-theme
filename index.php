@@ -34,7 +34,9 @@
         <div id="bd">
             <div id="yui-main">
                 <div class="yui-b"><div class="yui-g">
+					<h2>Hey! What's up?</h2>
 					<p>YUI App Theme is a generic, skinnable layout for your web application. Because it's built on top of the <a href="http://developer.yahoo.com/yui/grids/">YUI Grids</a> foundation, it's cross-browser and easy to extend.</p>
+					<p>We currently support the latest versions of</p>
 
                     <!-- Basic block -->
                     <div class="block">
@@ -54,7 +56,7 @@
                     </div>
 
                     <!-- Basic block with tabs -->
-                    <div class="block tabs spaces">
+                    <div class="block tabs">
                         <div class="hd">
                             <h2>Fake Header For SEO Purposes</h2>
                             <ul>
@@ -68,8 +70,28 @@
                             <div class="clear"></div>
                         </div>
                         <div class="bd">
+							<h3>Tab Example</h3>
                             <p>The tabs at the top of this block are made using an &lt;ul&gt; &mdash; they're super-useful for sub-navigation elements. If you look at the source, you'll also notice that right above them is an &lt;h2&gt; tag which is hidden from view. This lets you define a header for <abbr title="Search Engine Optimization">SEO</abbr> purposes without affecting your layout.</p>
                             <p>You can set the active tab by simply applying <code>class="active"</code> to the appropriate &lt;li&gt;.</p>
+                        </div>
+                    </div>
+
+                    <!-- Basic block with spaced tabs -->
+                    <div class="block tabs spaces">
+                        <div class="hd">
+                            <ul>
+                                <li class="active"><a href="#">Tabs</a></li>
+                                <li><a href="#">With</a></li>
+                                <li><a href="#">Space</a></li>
+                                <li><a href="#">Betweent</a></li>
+                                <li><a href="#">Them</a></li>
+                                <li><a href="#">(a really big tab that goes on far too long to show how it works)</a></li>
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bd">
+							<h3>Tab Example with Spaces</h3>
+							<p>These tabs use the <span class="highlight">exact same markup</span> as the previous example with an extra <code>spaces</code> class added to the block</p>
                         </div>
                     </div>
 

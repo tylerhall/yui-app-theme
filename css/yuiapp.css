@@ -20,15 +20,18 @@ h1 { font-size:230%; color:#fff; }
 
 /* Body */
 #bd { padding:1.5em; }
+h2 { font-size:153.9%; margin-bottom:0.5em; }
+h3 { font-size:153.9%; margin-bottom:0.5em; }
 
 /* Basic block */
 .block { margin-bottom:1.5em; }
 .block .hd { background-color:#7a1818; padding:0.7em 1em; color:#fff; border-bottom:10px solid #262626; }
+.block .hd h2, .block .hd h3 { font-size:100%; margin-bottom:0; }
 .block .bd { padding:1em; background-color:#fff; }
-.block .bd h2 { font-size:153.9%; color:#7a1818; margin-bottom:0.5em; }
-.block .bd h3 { font-size:153.9%; color:#7a1818; margin-bottom:0.5em; }
+.block .bd h2 { color:#7a1818; }
+.block .bd h3 { color:#7a1818; }
 
-/* Block with tabs */
+/* Extend block with tabs */
 .tabs .hd { padding:0; }
 .tabs .hd ul { height:1%; }
 .tabs .hd ul li { float:left; }
@@ -37,11 +40,11 @@ h1 { font-size:230%; color:#fff; }
 .tabs .hd ul li.active a { background-color:#262626 !important; color:#fff; text-decoration:none; } /* important! fixes IE cascade issue */
 .tabs .hd h2, .tabs .hd h3 { position:absolute; margin-left:-5000px; } /* Hidden SEO Header if needed */
 
-/* Allow for spacing between the tabs */
+/* Extend tab block with spaced tabs */
 .spaces .hd { background-color:transparent; }
 .spaces .hd ul li { background-color:#7a1818; margin-right:0.2em; }
 
-/* Style the horizontal rules within .block */
+/* Style the horizontal rules inside .block */
 .block hr { background-color:#f0f0ee; color:#f0f0ee; height:1px; border:0; }
 
 /* Tables */
