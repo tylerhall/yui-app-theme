@@ -4,7 +4,6 @@
 <head>
     <!-- TODO: Switch Theme box style -->
     <!-- TODO: Notice box (block without header essentially) -->
-    <!-- TODO: Pager control -->
     <title>YUI App Theme</title>
     <link rel="stylesheet" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" type="text/css">
     <link rel="stylesheet" href="css/yuiapp.css" type="text/css">
@@ -34,9 +33,11 @@
         <div id="bd">
             <div id="yui-main">
                 <div class="yui-b"><div class="yui-g">
-					<h2>Hey! What's up?</h2>
-					<p>YUI App Theme is a generic, skinnable layout for your web application. Because it's built on top of the <a href="http://developer.yahoo.com/yui/grids/">YUI Grids</a> foundation, it's cross-browser and easy to extend.</p>
-					<p>We currently support the latest versions of</p>
+					<h2>Hello, there.</h2>
+					<p>YUI App Theme is a generic, skinnable layout for web applications.</p>
+					<p>What you're looking at is the basic page template. Because it's built on top of the <a href="http://developer.yahoo.com/yui/grids/">YUI Grids</a> foundation, you can easily change the page and column widths or even swap the columns around to suit your needs. Not only is it cross-browser compatible (we support all the major browsers including IE6), but it's super easy to extend as well.</p>
+					<p>It's particularly well suited for admin areas.  You'll find most of the standard UI elements are styled and ready for you to use: blocks, tabbed modules, tables, lists, one and two column forms, etc. Just explore the page to see what's available. Pay particular attention to the theme and layout panels on the side. They'll let you preview alternate layouts and color schemes.</p>
+					<p>Enjoy!</p>
 
                     <!-- Basic block -->
                     <div class="block">
@@ -83,15 +84,15 @@
                                 <li class="active"><a href="#">Tabs</a></li>
                                 <li><a href="#">With</a></li>
                                 <li><a href="#">Space</a></li>
-                                <li><a href="#">Betweent</a></li>
+                                <li><a href="#">Between</a></li>
                                 <li><a href="#">Them</a></li>
-                                <li><a href="#">(a really big tab that goes on far too long to show how it works)</a></li>
+                                <!-- <li><a href="#">(a really big tab that goes on far too long to show how they expand)</a></li> -->
                             </ul>
                             <div class="clear"></div>
                         </div>
                         <div class="bd">
 							<h3>Tab Example with Spaces</h3>
-							<p>These tabs use the <span class="highlight">exact same markup</span> as the previous example with an extra <code>spaces</code> class added to the block</p>
+							<p>These tabs use the <span class="highlight">exact same markup</span> as the previous example with an extra <code>spaces</code> class added to the containing block.</p>
                         </div>
                     </div>
 
@@ -148,6 +149,23 @@
                                     </tr>
                                 </tbody>
                             </table>
+
+							<ul class="pager">
+								<li><a href="#">&#171; Prev</a></li>
+								<li class="active"><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#">6</a></li>
+								<li><a href="#">7</a></li>
+								<li><a href="#">8</a></li>
+								<li><a href="#">9</a></li>
+								<li><a href="#">10</a></li>
+								<li><a href="#">11</a></li>
+								<li><a href="#">12</a></li>
+								<li><a href="#">Next &#187;</a></li>
+							</ul>
 
                         </div>
                     </div>

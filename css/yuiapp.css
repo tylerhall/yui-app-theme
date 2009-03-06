@@ -12,11 +12,11 @@ h1 { font-size:230%; color:#fff; }
 #navigation li a { display:block; color:#fff; text-decoration:none; }
 #navigation li a:hover { text-decoration:underline; }
 
-#primary-navigation li a { font-size:116%; padding:0.5em 1em; }
+#primary-navigation li a { font-size:116%; padding:0.4em 1em; }
 #primary-navigation li.active a { background-color:#f0f0ee; color:#000; }
 
 #user-navigation { float:right; }
-#user-navigation li a { font-size:93%; padding:0.8em 1em; }
+#user-navigation li a { font-size:93%; padding:0.5em 1em; }
 
 /* Body */
 #bd { padding:1.5em; }
@@ -42,18 +42,24 @@ h3 { font-size:153.9%; margin-bottom:0.5em; }
 
 /* Extend tab block with spaced tabs */
 .spaces .hd { background-color:transparent; }
-.spaces .hd ul li { background-color:#7a1818; margin-right:0.2em; }
+.spaces .hd ul li { background-color:#7a1818; margin-right:0.1em; }
 
 /* Style the horizontal rules inside .block */
 .block hr { background-color:#f0f0ee; color:#f0f0ee; height:1px; border:0; }
 
 /* Tables */
-table { width:100%; }
+table { width:100%; margin-bottom:2em; }
 table td { padding:0.5em; }
 table thead { background-color:#262626; color:#fff; font-weight:bold; }
 table thead a { text-decoration:none; color:#fff; }
 table thead a:hover { text-decoration:underline; }
 table tbody a { text-decoration:underline; }
+
+/* Pager control*/
+ul.pager { text-align:right; }
+ul.pager li { display:inline; }
+ul.pager li a { padding:0.1em 0.3em; margin-right:0.3em; border:1px solid #000; text-decoration:none; color:#000; }
+ul.pager li.active a, ul.pager li a:hover { background-color:#000; color:#fff; }
 
 /* Forms */
 form label { font-weight:bold; }
