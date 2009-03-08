@@ -6,28 +6,28 @@
     <link rel="stylesheet" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" type="text/css">
     <link rel="stylesheet" href="css/yuiapp.css" type="text/css">
 
-	<script src="http://yui.yahooapis.com/3.0.0pr2/build/yui/yui-min.js" type="text/javascript"></script>
-	<script type="text/javascript" charset="utf-8">
-		YUI().use('node', function(Y) {
-		     function init() {
-				Y.all('#page-width-switcher a').on('click', function(e) {
-					Y.all('#page-width-switcher a.highlight').removeClass('highlight');
-					e.target.addClass('highlight');
-					document.body.id = e.target.get('title');
-					e.halt();
-				});
+    <script src="http://yui.yahooapis.com/3.0.0pr2/build/yui/yui-min.js" type="text/javascript"></script>
+    <script type="text/javascript" charset="utf-8">
+        YUI().use('node', function(Y) {
+             function init() {
+                Y.all('#page-width-switcher a').on('click', function(e) {
+                    Y.all('#page-width-switcher a.highlight').removeClass('highlight');
+                    e.target.addClass('highlight');
+                    document.body.id = e.target.get('title');
+                    e.halt();
+                });
 
-				Y.all('#page-layout-switcher a').on('click', function(e) {
-					Y.all('#page-layout-switcher a.highlight').removeClass('highlight');
-					e.target.addClass('highlight');
-					doc = Y.get('body div:first');
-					doc.replaceClass(doc.get('className'), e.target.get('title'));
-					e.halt();
-				});
-		     }
-		     Y.on("domready", init);
-		});
-	</script>	
+                Y.all('#page-layout-switcher a').on('click', function(e) {
+                    Y.all('#page-layout-switcher a.highlight').removeClass('highlight');
+                    e.target.addClass('highlight');
+                    doc = Y.get('body div:first');
+                    doc.replaceClass(doc.get('className'), e.target.get('title'));
+                    e.halt();
+                });
+             }
+             Y.on("domready", init);
+        });
+    </script>
 </head>
 <body>
     <div id="doc3" class="yui-t6">
@@ -54,11 +54,11 @@
         <div id="bd">
             <div id="yui-main">
                 <div class="yui-b"><div class="yui-g">
-					<h2>Hello, there.</h2>
-					<p>YUI App Theme is a generic, skinnable layout for web applications.</p>
-					<p>What you're looking at is the basic page template. Because it's built on top of the <a href="http://developer.yahoo.com/yui/grids/">YUI Grids</a> foundation, you can easily change the page and column widths or even swap the columns around to suit your needs. Not only is it cross-browser compatible (we support all the major browsers including IE6), but it's super easy to extend as well.</p>
-					<p>It's particularly well suited for admin areas.  You'll find most of the standard UI elements are styled and ready for you to use: blocks, tabbed modules, tables, lists, one and two column forms, etc. Just explore the page to see what's available. Pay particular attention to the theme and layout panels on the side. They'll let you preview alternate layouts and color schemes with one click.</p>
-					<p>Enjoy!</p>
+                    <h2>Hello, there.</h2>
+                    <p>YUI App Theme is a generic, skinnable layout for web applications.</p>
+                    <p>What you're looking at is the basic page template. Because it's built on top of the <a href="http://developer.yahoo.com/yui/grids/">YUI Grids</a> foundation, you can easily change the page and column widths or even swap the columns around to suit your needs. Not only is it cross-browser compatible (we support all the major browsers including IE6), but it's super easy to extend as well.</p>
+                    <p>It's particularly well suited for admin areas.  You'll find most of the standard UI elements are styled and ready for you to use: blocks, tabbed modules, tables, lists, one and two column forms, etc. Just explore the page to see what's available. Pay particular attention to the theme and layout panels on the side. They'll let you preview alternate layouts and color schemes with one click.</p>
+                    <p>Enjoy!</p>
 
                     <!-- Basic block -->
                     <div class="block">
@@ -92,7 +92,7 @@
                             <div class="clear"></div>
                         </div>
                         <div class="bd">
-							<h3>Tab Example</h3>
+                            <h3>Tab Example</h3>
                             <p>The tabs at the top of this block are made using an &lt;ul&gt; &mdash; they're super-useful for sub-navigation elements. If you look at the source, you'll also notice that right above them is an &lt;h2&gt; tag which is hidden from view. This lets you define a header for <abbr title="Search Engine Optimization">SEO</abbr> purposes without affecting your layout.</p>
                             <p>You can set the active tab by simply applying <code>class="active"</code> to the appropriate &lt;li&gt;.</p>
                         </div>
@@ -112,8 +112,8 @@
                             <div class="clear"></div>
                         </div>
                         <div class="bd">
-							<h3>Tab Example with Spaces</h3>
-							<p>These tabs use the <span class="highlight">exact same markup</span> as the previous example with an extra <code>spaces</code> class added to the containing block.</p>
+                            <h3>Tab Example with Spaces</h3>
+                            <p>These tabs use the <span class="highlight">exact same markup</span> as the previous example with an extra <code>spaces</code> class added to the containing block.</p>
                         </div>
                     </div>
 
@@ -171,22 +171,22 @@
                                 </tbody>
                             </table>
 
-							<ul class="pager">
-								<li><a href="#">&#171; Prev</a></li>
-								<li class="active"><a href="#">1</a></li>
-								<li><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#">5</a></li>
-								<li><a href="#">6</a></li>
-								<li><a href="#">7</a></li>
-								<li><a href="#">8</a></li>
-								<li><a href="#">9</a></li>
-								<li><a href="#">10</a></li>
-								<li><a href="#">11</a></li>
-								<li><a href="#">12</a></li>
-								<li><a href="#">Next &#187;</a></li>
-							</ul>
+                            <ul class="pager">
+                                <li><a href="#">&#171; Prev</a></li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">6</a></li>
+                                <li><a href="#">7</a></li>
+                                <li><a href="#">8</a></li>
+                                <li><a href="#">9</a></li>
+                                <li><a href="#">10</a></li>
+                                <li><a href="#">11</a></li>
+                                <li><a href="#">12</a></li>
+                                <li><a href="#">Next &#187;</a></li>
+                            </ul>
 
                         </div>
                     </div>
@@ -309,30 +309,30 @@
                     </div>
                 </div>
 
-				<div class="block">
-					<div class="hd">
-						<h2>Switch Layout</h2>
-					</div>
-					<div class="bd">
-						<h3>Page Width</h3>
-						<ul id="page-width-switcher" class="biglist">
-							<li><a href="#" title="doc">750px centered</a></li>
-							<li><a href="#" title="doc2">950px centered</a></li>
-							<li><a href="#" title="doc3" class="highlight">100% fluid</a></li>
-							<li><a href="#" title="doc4">974px fluid</a></li>
-						</ul>
+                <div class="block">
+                    <div class="hd">
+                        <h2>Switch Layout</h2>
+                    </div>
+                    <div class="bd">
+                        <h3>Page Width</h3>
+                        <ul id="page-width-switcher" class="biglist">
+                            <li><a href="#" title="doc">750px centered</a></li>
+                            <li><a href="#" title="doc2">950px centered</a></li>
+                            <li><a href="#" title="doc3" class="highlight">100% fluid</a></li>
+                            <li><a href="#" title="doc4">974px fluid</a></li>
+                        </ul>
 
-						<h3>Layout</h3>
-						<ul id="page-layout-switcher" class="biglist">
-							<li><a href="#" title="yui-t1">Left sidebar, 160px</a></li>
-							<li><a href="#" title="yui-t2">Left sidebar, 180px</a></li>
-							<li><a href="#" title="yui-t3">Left sidebar, 300px</a></li>
-							<li><a href="#" title="yui-t4">Right sidebar, 180px</a></li>
-							<li><a href="#" title="yui-t5">Right sidebar, 240px</a></li>
-							<li><a href="#" title="yui-t6" class="highlight">Right sidebar, 300px</a></li>
-						</ul>
-					</div>
-				</div>
+                        <h3>Layout</h3>
+                        <ul id="page-layout-switcher" class="biglist">
+                            <li><a href="#" title="yui-t1">Left sidebar, 160px</a></li>
+                            <li><a href="#" title="yui-t2">Left sidebar, 180px</a></li>
+                            <li><a href="#" title="yui-t3">Left sidebar, 300px</a></li>
+                            <li><a href="#" title="yui-t4">Right sidebar, 180px</a></li>
+                            <li><a href="#" title="yui-t5">Right sidebar, 240px</a></li>
+                            <li><a href="#" title="yui-t6" class="highlight">Right sidebar, 300px</a></li>
+                        </ul>
+                    </div>
+                </div>
 
                 <div class="block">
                     <div class="bd">
