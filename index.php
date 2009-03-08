@@ -36,7 +36,7 @@
 					<h2>Hello, there.</h2>
 					<p>YUI App Theme is a generic, skinnable layout for web applications.</p>
 					<p>What you're looking at is the basic page template. Because it's built on top of the <a href="http://developer.yahoo.com/yui/grids/">YUI Grids</a> foundation, you can easily change the page and column widths or even swap the columns around to suit your needs. Not only is it cross-browser compatible (we support all the major browsers including IE6), but it's super easy to extend as well.</p>
-					<p>It's particularly well suited for admin areas.  You'll find most of the standard UI elements are styled and ready for you to use: blocks, tabbed modules, tables, lists, one and two column forms, etc. Just explore the page to see what's available. Pay particular attention to the theme and layout panels on the side. They'll let you preview alternate layouts and color schemes.</p>
+					<p>It's particularly well suited for admin areas.  You'll find most of the standard UI elements are styled and ready for you to use: blocks, tabbed modules, tables, lists, one and two column forms, etc. Just explore the page to see what's available. Pay particular attention to the theme and layout panels on the side. They'll let you preview alternate layouts and color schemes with one click.</p>
 					<p>Enjoy!</p>
 
                     <!-- Basic block -->
@@ -47,7 +47,7 @@
                         <div class="bd">
                             <h2>Some H2 Text</h2>
                             <h3>Some H3 Text</h3>
-                            <p>So this is a basic block module. It allows you to define a header using either an &lt;h2&gt; or &lt;h3&gt; tag. It can live either in the main body column (here) or in the side bar to the right. It will automatically expand/shrink/do-the-right-thing where ever you put it &mdash; without requiring any markup changes.</p>
+                            <p>So this is a basic block module. It allows you to define a header using either an &lt;h2&gt; or &lt;h3&gt; tag. It can live in the main body column (here) or in the side bar to the right. It will automatically expand/shrink/do-the-right-thing where ever you put it &mdash; without requiring any markup changes.</p>
                             <p>Lorem ipsum dolor sit amet, <strong>some bold text</strong> <em>followed by some italic text</em> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <span class="highlight">Highlighted text goes here</span>, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             <p class="small">small text</p>
                             <p class="gray">gray text</p>
@@ -287,6 +287,31 @@
                         <p><em>Lorem ipsum dolor sit amet</em>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <strong>Excepteur sint occaecat cupidatat non proident</strong>, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
+
+				<div class="block">
+					<div class="hd">
+						<h2>Switch Layout</h2>
+					</div>
+					<div class="bd">
+						<h3>Page Width</h3>
+						<ul class="biglist">
+							<li><a href="#" title="doc">750px centered</a></li>
+							<li><a href="#" title="doc2">950px centered</a></li>
+							<li><a href="#" title="doc3">100% fluid</a></li>
+							<li><a href="#" title="doc4">974px fluid</a></li>
+						</ul>
+
+						<h3>Layout</h3>
+						<ul class="biglist">
+							<li><a href="#" title="yui-t1">Left sidebar, 160px</a></li>
+							<li><a href="#" title="yui-t2">Left sidebar, 180px</a></li>
+							<li><a href="#" title="yui-t3">Left sidebar, 300px</a></li>
+							<li><a href="#" title="yui-t4">Right sidebar, 180px</a></li>
+							<li><a href="#" title="yui-t5">Right sidebar, 240px</a></li>
+							<li><a href="#" title="yui-t6">Right sidebar, 300px</a></li>
+						</ul>
+					</div>
+				</div>
 
                 <div class="block">
                     <div class="bd">

@@ -82,6 +82,11 @@ ol.list li { list-style:decimal outside; }
 ul.list li { list-style:disc outside; }
 dl.list dd { margin-left:1em; }
 
+ul.biglist { margin-bottom:1em; }
+ul.biglist li { margin-top:-1px; border:1px solid #f0f0ee; border-width:1px 0 1px 0; }
+ul.biglist li a { display:block; padding:0.5em 0; text-decoration:none; color:#000; }
+ul.biglist li a:hover { text-decoration:underline; }
+
 /* Footer */
 #ft { text-align:center; font-size:85%; padding:0.5em 1em; color:#262626; }
 
