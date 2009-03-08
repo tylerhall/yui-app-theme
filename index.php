@@ -5,29 +5,8 @@
     <title>YUI App Theme</title>
     <link rel="stylesheet" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" type="text/css">
     <link rel="stylesheet" href="css/yuiapp.css" type="text/css">
-
     <script src="http://yui.yahooapis.com/3.0.0pr2/build/yui/yui-min.js" type="text/javascript"></script>
-    <script type="text/javascript" charset="utf-8">
-        YUI().use('node', function(Y) {
-             function init() {
-                Y.all('#page-width-switcher a').on('click', function(e) {
-                    Y.all('#page-width-switcher a.highlight').removeClass('highlight');
-                    e.target.addClass('highlight');
-                    document.body.id = e.target.get('title');
-                    e.halt();
-                });
-
-                Y.all('#page-layout-switcher a').on('click', function(e) {
-                    Y.all('#page-layout-switcher a.highlight').removeClass('highlight');
-                    e.target.addClass('highlight');
-                    doc = Y.get('body div:first');
-                    doc.replaceClass(doc.get('className'), e.target.get('title'));
-                    e.halt();
-                });
-             }
-             Y.on("domready", init);
-        });
-    </script>
+    <script src="js/yuiapp.js" type="text/javascript"></script>
 </head>
 <body>
     <div id="doc3" class="yui-t6">
@@ -305,21 +284,20 @@
                     </div>
                     <div class="bd">
                         <p>This sidebar block uses the exact same markup as the main body blocks. This lets you move them around easily - as they automatically resize to fit the available space.</p>
-                        <p><em>Lorem ipsum dolor sit amet</em>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <strong>Excepteur sint occaecat cupidatat non proident</strong>, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
 
                 <div class="block">
                     <div class="hd">
-                        <h2>Switch Layout</h2>
+                        <h2>Adjust Layout</h2>
                     </div>
                     <div class="bd">
                         <h3>Page Width</h3>
                         <ul id="page-width-switcher" class="biglist">
                             <li><a href="#" title="doc">750px centered</a></li>
                             <li><a href="#" title="doc2">950px centered</a></li>
-                            <li><a href="#" title="doc3" class="highlight">100% fluid</a></li>
                             <li><a href="#" title="doc4">974px fluid</a></li>
+                            <li><a href="#" title="doc3" class="highlight">100% fluid</a></li>
                         </ul>
 
                         <h3>Layout</h3>
@@ -330,6 +308,7 @@
                             <li><a href="#" title="yui-t4">Right sidebar, 180px</a></li>
                             <li><a href="#" title="yui-t5">Right sidebar, 240px</a></li>
                             <li><a href="#" title="yui-t6" class="highlight">Right sidebar, 300px</a></li>
+                            <li><a href="#" title="yui-t0">Single Column</a></li>
                         </ul>
                     </div>
                 </div>
