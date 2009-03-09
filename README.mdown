@@ -1,0 +1,55 @@
+YUI App Theme
+=============
+
+A generic, skinnable layout for web applications built using [YUI Grids](http://developer.yahoo.com/yui/grids/). It's particularly well suited for admin areas. You'll find most of the standard UI elements are styled and ready for you to use: blocks, tabbed modules, tables, lists, one and two column forms, etc. Just [explore the demo](http://clickontyler.com/yui-app-theme/) to see what's available. Pay particular attention to the theme and layout panels on the side. They'll let you preview alternate layouts and color schemes with one click.
+
+This project is based on the great idea and design work done by the [web-app-theme](http://github.com/pilu/web-app-theme/tree/master) project on GitHub. We loved the concept and simplicity of their web app template but needed it to be built with [YUI](http://developer.yahoo.com/yui/). So we decided to re-implement it ourselves.
+
+The result is a clean, semantically structured layout built using [YUI Grids](http://developer.yahoo.com/yui/grids/). We hope you find it useful.
+
+
+FEATURES
+--------
+
+ * Built on YUI Grids for easy customization and browser compatibility.
+ * Lightweight CSS ~10KB
+
+INSTALL
+-------
+
+To use, customize the HTML and CSS to suit your needs. You can safely remove the &lt;script&gt; references, as they're only used in the demo.
+
+UPDATES
+-------
+
+Code is hosted at GitHub: [http://github.com/tylerhall/yui-app-theme/](http://github.com/tylerhall/yui-app-theme/)
+
+CONTRIBUTING
+------------
+
+Feel free to fork the project and add your own themes and improvements.
+
+LICENSE
+-------
+
+The MIT License
+
+Copyright (c) 2009 Tyler Hall <tylerhall AT gmail DOT com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
