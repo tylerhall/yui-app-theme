@@ -18,7 +18,7 @@ YUI().use('node', function(Y) {
         Y.all('#page-color-switcher a').on('click', function(e) {
             Y.all('#page-color-switcher a.highlight').removeClass('highlight');
             e.target.addClass('highlight');
-			Y.get('#theme').set('href', 'css/' + e.target.get('title') + '.css');
+            Y.get('#theme').set('href', 'css/' + e.target.get('title') + '.css');
             e.halt();
         });
      }

@@ -7,6 +7,9 @@ This project is based on the great idea and design work done by the [web-app-the
 
 The result is a clean, semantically structured layout built using [YUI Grids](http://developer.yahoo.com/yui/grids/). We hope you find it useful.
 
+Here's an [introductory blog post](http://clickontyler.com/blog/2009/03/yui-app-theme/) about the project.
+
+And a [live demo](http://clickontyler.com/yui-app-theme/).
 
 FEATURES
 --------
