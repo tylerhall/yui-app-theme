@@ -1,0 +1,7 @@
+#hd { background-color:#7a1818; }
+.block .hd { background-color:#7a1818; color:#fff; border-bottom:10px solid #262626; }
+.block .bd h2 { color:#7a1818; }
+.block .bd h3 { color:#7a1818; }
+.spaces .hd { background-color:transparent; }
+.spaces .hd ul li { background-color:#7a1818; }
+a { color:#7a1818; }
