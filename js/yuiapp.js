@@ -21,6 +21,16 @@ YUI().use('node', function(Y) {
             Y.get('#theme').set('href', 'css/' + e.target.get('title') + '.css');
             e.halt();
         });
+
+        Y.all('#page-corner-switcher a').on('click', function(e) {
+            Y.all('#page-corner-switcher a.highlight').removeClass('highlight');
+            e.target.addClass('highlight');
+            if(e.target.get('title') == 'on')
+                Y.get('body').addClass('rounded');
+            else
+                Y.get('body').removeClass('rounded');
+            e.halt();
+        });
      }
      Y.on("domready", init);
 });

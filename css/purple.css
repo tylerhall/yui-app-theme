@@ -10,3 +10,4 @@
 .spaces .hd { background-color:transparent; }
 .spaces .hd ul li { background-color:#5D0265; }
 a { color:#5D0265; }
+.tabs .hd ul li a:hover { background-color:#8d0399; }

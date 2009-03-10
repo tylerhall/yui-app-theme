@@ -44,6 +44,19 @@ h3 { font-size:153.9%; margin-bottom:0.5em; }
 .spaces .hd { background-color:transparent; }
 .spaces .hd ul li { background-color:#7a1818; margin-right:0.1em; }
 
+/* Extend block and header to have rounded corners */
+.rounded .hd,
+.rounded .hd ul li,
+.rounded .hd ul li a,
+.rounded #navigation,
+.rounded #navigation ul li,
+.rounded #navigation ul li a {
+    -moz-border-radius-topright:7px;
+    -moz-border-radius-topleft:7px;
+    -webkit-border-top-right-radius:7px;
+    -webkit-border-top-left-radius:7px;
+}
+
 /* Style the horizontal rules inside .block */
 .block hr { background-color:#f0f0ee; color:#f0f0ee; height:1px; border:0; }
 
